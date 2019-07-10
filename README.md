@@ -1,1 +1,3 @@
-# cassandra-migration
+# Cassandra migration
+
+## USAGE
