@@ -3,11 +3,11 @@
 ## USAGE
 
 1. Required module: ``` cassandra-migration ```
-    * Link: ```https://www.npmjs.com/package/cassandra-migration```
-    * Installation: ``` npm install cassandra-migration --save ```
-    * Execution: Run script ```cassandra-migration migrate.json```
+    * Link: ```https://www.npmjs.com/package/cassandra-migration```.
+    * Installation: ``` npm install cassandra-migration --save ```.
+    * Execution: Run script ```cassandra-migration migrate.json```.
     
-    > Note: By default the script will look for a file named ```migrate.json```
+    > Note: By default the script will look for a file named ```migrate.json```.
 
 2. Config file
     * Example: 
@@ -28,8 +28,8 @@
 
 3. Cassandra migration script file
 
-    > Each cassandra script file should follow the format ```<VERSION>__<TITLE>.cql```
-    > Each query statement within the file should be seperated by three hyphens: ```---```
+    > Each cassandra script file should follow the format ```<VERSION>__<TITLE>.cql```.<br/>
+    > Each query statement within the file should be seperated by three hyphens: ```---```.<br/>
     > You must create a ```keyspace name``` before running this script.
     Example:
     ```
