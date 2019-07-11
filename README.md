@@ -6,6 +6,7 @@
     * Link: ```https://www.npmjs.com/package/cassandra-migration```
     * Installation: ``` npm install cassandra-migration ```
     * Execution: Run script ```cassandra-migration migrate.json```
+    
     > Note: By default the script will look for a file named ```migrate.json```
 
 2. Config file
