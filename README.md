@@ -4,7 +4,7 @@
 
 1. Required module: ``` cassandra-migration ```
     * Link: ```https://www.npmjs.com/package/cassandra-migration```
-    * Installation: ``` npm install cassandra-migration ```
+    * Installation: ``` npm install cassandra-migration --save ```
     * Execution: Run script ```cassandra-migration migrate.json```
     
     > Note: By default the script will look for a file named ```migrate.json```
@@ -30,6 +30,7 @@
 
     > Each cassandra script file should follow the format ```<VERSION>__<TITLE>.cql```
     > Each query statement within the file should be seperated by three hyphens: ```---```
+    > You must create a ```keyspace name``` before running this script.
     Example:
     ```
     CREATE TABLE testing.testing_teams (
@@ -67,3 +68,10 @@
         teams set<TEXT>
     );
     ```
+
+4. Keyword
+    * Cassandra
+    * Migration
+
+5. References
+    * Link: https://www.npmjs.com/package/cassandra-migration
